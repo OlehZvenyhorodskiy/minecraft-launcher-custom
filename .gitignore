@@ -1,0 +1,15 @@
+node_modules/
+out/
+dist/
+build/
+.gradle/
+.idea/
+.vscode/
+*.log
+*.tmp
+*.iml
+launcher/release/
+launcher/resources/bundled-mods/*.jar
+zonk-optimizer/run/
+zonk-optimizer/remappedSrc/
+

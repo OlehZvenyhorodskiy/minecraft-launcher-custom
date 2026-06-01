@@ -1,0 +1,21 @@
+appId: dev.zonk.launcher
+productName: ZonkLauncher
+directories:
+  output: release
+files:
+  - out/**/*
+  - resources/**/*
+extraResources:
+  - from: resources/bundled-mods
+    to: bundled-mods
+    filter:
+      - "*.jar"
+win:
+  signAndEditExecutable: false
+  target:
+    - nsis
+  artifactName: ZonkLauncher-Setup-${version}-${arch}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true

@@ -1,0 +1,16 @@
+{
+  "name": "zonklauncher-workspace",
+  "private": true,
+  "workspaces": [
+    "launcher"
+  ],
+  "scripts": {
+    "dev": "npm --workspace launcher run dev",
+    "build": "npm --workspace launcher run build",
+    "test": "npm --workspace launcher run test",
+    "dist": "npm --workspace launcher run dist"
+  },
+  "overrides": {
+    "undici@7.2.3": "7.24.8"
+  }
+}

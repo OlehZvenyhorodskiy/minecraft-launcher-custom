@@ -1,0 +1,37 @@
+{
+  "name": "zonklauncher",
+  "version": "0.1.0",
+  "description": "Licensed Minecraft optimization launcher with Fabric profiles and Modrinth performance packs.",
+  "private": true,
+  "type": "module",
+  "main": "./out/main/index.js",
+  "author": "ZonkLauncher",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "tsc --noEmit && electron-vite build",
+    "preview": "electron-vite preview",
+    "test": "vitest run",
+    "dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "@xmcl/core": "^2.15.1",
+    "@xmcl/installer": "^6.1.2",
+    "lucide-react": "^0.468.0",
+    "msmc": "^5.0.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "32.3.3",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^5.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  }
+}

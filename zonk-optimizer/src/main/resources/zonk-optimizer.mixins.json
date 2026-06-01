@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "package": "dev.zonk.optimizer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ParticleManagerMixin",
+    "WorldRendererMixin",
+    "ScreenMixin",
+    "BlockEntityRenderDispatcherMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
+
