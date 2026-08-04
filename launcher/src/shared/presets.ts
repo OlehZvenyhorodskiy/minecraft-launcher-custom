@@ -95,4 +95,3 @@ export function buildZonkOptimizerConfig(preset: OptimizationPreset): string {
 
   return `${JSON.stringify(config, null, 2)}\n`;
 }
-

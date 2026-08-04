@@ -68,4 +68,3 @@ export async function removeProfile(profileId: string): Promise<void> {
     profiles: file.profiles.filter((profile) => profile.id !== profileId)
   }));
 }
-

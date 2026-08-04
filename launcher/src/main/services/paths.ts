@@ -32,4 +32,3 @@ export function getDefaultMinecraftRoot(): string {
 export function getCacheDir(): string {
   return join(getAppDataDir(), "cache");
 }
-

@@ -30,4 +30,3 @@ export class JsonStore<T> {
     return next;
   }
 }
-

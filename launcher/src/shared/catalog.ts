@@ -123,4 +123,3 @@ export const OPTIONS_TXT_PRESETS: Record<OptimizationPreset, string[]> = {
     "gamma:1.0"
   ]
 };
-

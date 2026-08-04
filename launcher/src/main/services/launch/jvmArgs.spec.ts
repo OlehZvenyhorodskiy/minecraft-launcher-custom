@@ -22,4 +22,3 @@ describe("buildJvmArgs", () => {
     expect(buildJvmArgs(profile)).toEqual(["-Xms2G", "-Xmx8G", "-XX:+UseG1GC"]);
   });
 });
-

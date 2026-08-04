@@ -9,4 +9,3 @@ describe("modrinthUrl", () => {
     expect(url.searchParams.get("loaders")).toBe("[\"fabric\"]");
   });
 });
-

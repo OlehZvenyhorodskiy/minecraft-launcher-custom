@@ -19,4 +19,3 @@ export function buildJvmArgs(profile: LauncherProfile): string[] {
   const flags = new Set(profile.jvmArgs.length ? profile.jvmArgs : JVM_BASE_FLAGS);
   return [`-Xms${min}G`, `-Xmx${max}G`, ...flags];
 }
-

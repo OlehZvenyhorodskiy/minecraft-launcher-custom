@@ -23,4 +23,3 @@ export async function resolveJavaPath(): Promise<string> {
 
   return process.platform === "win32" ? "javaw.exe" : "java";
 }
-

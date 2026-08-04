@@ -24,4 +24,3 @@ const api: ZonkApi = {
 };
 
 contextBridge.exposeInMainWorld("zonk", api);
-

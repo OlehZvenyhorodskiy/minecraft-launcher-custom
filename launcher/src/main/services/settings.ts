@@ -16,4 +16,3 @@ export async function updateSettings(partial: Partial<LauncherSettings>): Promis
     ...partial
   }));
 }
-

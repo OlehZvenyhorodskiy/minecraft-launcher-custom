@@ -98,4 +98,3 @@ public final class Config {
         public boolean safeMode = true;
     }
 }
-

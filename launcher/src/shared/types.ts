@@ -88,4 +88,3 @@ export interface ZonkApi {
   openPath(path: string): Promise<void>;
   onTaskEvent(callback: (event: TaskEvent) => void): () => void;
 }
-

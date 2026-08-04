@@ -11,4 +11,3 @@ export async function writePerformanceFiles(profile: LauncherProfile): Promise<v
   await writeFile(join(configDir, "iris.properties"), buildIrisProperties(profile.optimizationPreset), "utf8");
   await writeFile(join(configDir, "zonk-optimizer.json"), buildZonkOptimizerConfig(profile.optimizationPreset), "utf8");
 }
-

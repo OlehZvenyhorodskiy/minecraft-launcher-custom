@@ -30,4 +30,3 @@ export async function launchProfile(profileId: string, emit?: (event: TaskEvent)
   process.unref();
   emit?.({ scope: "launch", level: "success", message: "Minecraft process started" });
 }
-
